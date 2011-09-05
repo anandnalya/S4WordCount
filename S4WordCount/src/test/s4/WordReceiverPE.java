@@ -31,7 +31,7 @@ public class WordReceiverPE extends AbstractPE {
 	 *            Word received on <code>RawWords *</code> stream.
 	 */
 	public void processEvent(Word word) {
-		System.out.println("Recieved: " + word);
+		System.out.println("Received: " + word);
 
 		// keep building the sentence
 		builder.append(' ').append(word.getString().trim());
@@ -55,7 +55,7 @@ public class WordReceiverPE extends AbstractPE {
 	 *            Sentence recieved on <code>Sentence *<code> stream.
 	 */
 	public void processEvent(Sentence sentence) {
-		System.out.println("Recieved Sentence(WordReceiverPE) : " + sentence);
+		System.out.println("Received Sentence(WordReceiverPE) : " + sentence);
 	}
 
 	@Override

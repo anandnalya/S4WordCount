@@ -12,7 +12,7 @@ public class SentenceReceiverPE extends AbstractPE {
 	 * @param sentence
 	 */
 	public void processEvent(Sentence sentence){
-		System.out.println("Recieved Sentence: " + sentence);
+		System.out.println("Received Sentence: " + sentence);
 	}
 
 	@Override
